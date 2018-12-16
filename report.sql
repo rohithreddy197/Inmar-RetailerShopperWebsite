@@ -17,7 +17,7 @@
 
 
 ●	Write SQL to find top retailer based on the number of purchases 
-
+>>>>select retid as retailer,max(countnum)as numberoftransactions from (select rid as retid,count(*) as countnum from retshop group by rid) as innertab;
 
 
 ●	Write SQL to find a loyal shopper of any retailer based on the number of purchased more than threshold 5 
